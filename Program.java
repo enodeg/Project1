@@ -6,5 +6,7 @@ public class Program
 	System.out.println("Hello world");
 	System.out.println("Happy new year!");
 	Scanner scanner = new Scanner(System.in);
+	int a = scanner.nextInt();
+	System.out.println(a*a);
 	}
 	}
